@@ -20,8 +20,6 @@ public class Task implements Runnable {
 		task_array[2].start();
 		task_array[3].start();
 		System.out.println("Done");
-
 		
-
 	}
 }

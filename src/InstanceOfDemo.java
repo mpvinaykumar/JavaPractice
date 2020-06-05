@@ -23,12 +23,18 @@ public class InstanceOfDemo {
 		X obj;
 		obj = z; // X reference to z
 
-		// Z obj2; obj2=x; can't convert parent class to child, vice versa is
-		// possible
-
+		Z obj2; 
+		//obj2=(Z) x; //can't convert parent class to child, vice versa is possible
+		/**
+		Exception in thread "main" java.lang.ClassCastException: X cannot be cast to Z
+		at InstanceOfDemo.main
+		*/
+		/*System.out.println(obj2.k);
+		System.out.println(obj2.i);*/
+		
 		if (obj instanceof Z)
 			System.out.println("obj is an instance of Z");
-		// System.out.println(obj.k); can't access 'k' bcz z is having parent
+		// System.out.println(obj.k); can't access 'k' bcz z it's having parent
 		// reference
 	}
 }

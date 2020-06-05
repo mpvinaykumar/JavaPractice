@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 
 //This class supports iteration of the 
 //characters that comprise a string.
-class IterableString implements Iterable<Character>, Iterator<Character> {
+class IterableString implements Iterable<Character>,Iterator<Character> {
 	private String str;
 
 	private int count = 0;

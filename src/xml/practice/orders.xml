@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="orders.xsl"?>
+
+<orders>
+    <order>
+        <customer>
+            <name>lakshman</name>
+            <id>12345</id>
+            <premium>Y</premium>
+        </customer>
+        <orderdetails>
+            <items>
+                <item>
+                    <pid>2323</pid>
+                    <name>Samsung TV</name>
+                    <price>1000</price>
+                </item>
+                <item>
+                    <pid>3423</pid>
+                    <name>LG Washing Machine</name>
+                    <price>700</price>
+                </item>
+                <item>
+                    <pid>4543</pid>
+                    <name>Bosch Dish Wasger</name>
+                    <price>600</price>
+                </item>
+                <item>
+                    <pid>4231</pid>
+                    <name>Phillips Hue</name>
+                    <price>200</price>
+                </item>
+            </items>
+            <discount>
+            	<percentage>10</percentage>
+            </discount>
+        </orderdetails>
+    </order>
+
+    <order>
+        <customer>
+            <name>uday</name>
+            <id>3243</id>
+            <premium>N</premium>
+        </customer>
+        <orderdetails>
+            <items>
+                <item>
+                    <pid>2323</pid>
+                    <name>Samsung TV</name>
+                    <price>1000</price>
+                </item>
+                <item>
+                    <pid>3423</pid>
+                    <name>LG Washing Machine</name>
+                    <price>700</price>
+                </item>
+                <item>
+                    <pid>4231</pid>
+                    <name>Phillips Hue</name>
+                    <price>200</price>
+                </item>
+            </items>
+             <discount>
+            	<fixed>20</fixed>
+            </discount>
+        </orderdetails>
+    </order>
+
+    <order>
+        <customer>
+            <name>Swetha</name>
+            <id>1245</id>
+            <premium>Y</premium>
+        </customer>
+        <orderdetails>
+            <items>
+                <item>
+                    <pid>4543</pid>
+                    <name>Bosch Dish Wasger</name>
+                    <price>600</price>
+                </item>
+                <item>
+                    <pid>4231</pid>
+                    <name>Phillips Hue</name>
+                    <price>200</price>
+                </item>
+            </items>
+            <discount>
+            	<value>20</value>
+            </discount>
+        </orderdetails>
+    </order>
+	<b2border>
+		<company>
+		</company>
+		<orderdetails>
+			<items>
+				<item></item>
+			</items>
+		</orderdetails>
+	</b2border>
+</orders>
