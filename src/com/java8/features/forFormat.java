@@ -16,6 +16,12 @@ public class forFormat {
 		System.out.println(f1.andThen(f2).applyAsInt(4));
 		
 		System.out.println(new Random().nextInt(12));
+		
+		System.out.println("-----------");
+		
+		System.out.println(9/2);
+		System.out.println(9%2);
+		
 
 	}
 }

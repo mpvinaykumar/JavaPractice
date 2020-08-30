@@ -1,4 +1,4 @@
-package com.patterns.creational.factory;
+package designpatterns.creational.factory;
 
 public abstract class Shape {
 	protected ShapeType shapeType;

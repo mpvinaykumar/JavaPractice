@@ -24,9 +24,9 @@ class GooClass extends FooClass {
 	}
 }
 
-public class MultiInheritance extends GooClass implements Goo {
+public class Multi_Inheritance extends GooClass implements Goo {
 	public static void main(String args[]) {
-		MultiInheritance multiInher = new MultiInheritance();
+		Multi_Inheritance multiInher = new Multi_Inheritance();
 		System.out.println(multiInher.defMethod());
 		System.out.println(multiInher.normMethod());
 	}

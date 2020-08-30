@@ -1,5 +1,4 @@
-package com.patterns.creational.factory;
-
+package designpatterns.creational.factory;
 
 public class Square extends Shape {
 	public Square() {

@@ -32,6 +32,19 @@ class OverLoadAmbiguity {
 	void m(float a, int b, double c) {
 		System.out.println("first");
 	}
+
+	void m(Object o) {
+
+	}
+
+	void m(Integer i) {
+		System.out.println("inside Integer");
+	}
+
+	/** if i un-comment, we will get OverLoadAmbiguity CompileTime-Error */
+//	void m(String s) {
+//		System.out.println("inside String");
+//	}
 }
 
 public class OverLoadInvocation {
@@ -45,7 +58,10 @@ public class OverLoadInvocation {
 		byte b = 0;
 
 		// ambiguity.m(b, b, b); //The method m(float, int, byte) is ambiguous for the
+
 		// type OverLoadAmbiguity
 		// ambiguity.m(23, 12, 1); //ambiguous
+
+		ambiguity.m(null); 
 	}
 }
