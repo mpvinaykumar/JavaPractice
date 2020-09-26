@@ -1,4 +1,4 @@
-package youtube.durga.java8;
+package durga.java8;
 
 
 //Demo for Multiple inheritance
